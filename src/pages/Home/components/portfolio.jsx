@@ -28,14 +28,13 @@ export const Portfolio = () => {
      data-aos-offset="200"
      data-aos-delay="50"
      data-aos-duration="1000"
-    //  data-aos-easing="ease-in-out"
      data-aos-mirror="true"
      data-aos-once="false"
 
       name="portfolio" className="bg-gradient-to-b  w-full text-white ">
         <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full">
           <div className="pb-8">
-            <p className="text-4xl font-bold lg:text-center text-center lg:p-1 p-3 border-b-4 border-[#0FB807] font-[spaceB]">
+            <p className="text-4xl font-bold lg:text-center text-center lg:p-3 p-4 border-b-4 border-[#0FB807] font-[spaceB]">
               Portfolio
             </p>
             <p className="py-6">Check out some of my work right here</p>

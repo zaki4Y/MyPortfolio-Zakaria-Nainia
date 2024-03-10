@@ -5,20 +5,20 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
 
-
-
 export const About = () => {
   return (
     <>
-      <div data-aos="fade-up"
-    //  data-aos-duration="3000"
-     data-aos-offset="200"
-      data-aos-delay="50"
-      data-aos-duration="1000"
-      data-aos-easing="ease-in-out"
-      data-aos-mirror="true"
-      data-aos-once="false"
-     className="flex justify-center">
+      <div
+        data-aos="fade-up"
+        //  data-aos-duration="3000"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        className="flex justify-center"
+      >
         <div className="max-w-screen-lg p-4 flex flex-col justify-center  w-full">
           <div name="about" className="w-full flex text-white  lg:mt-4 mt-8 ">
             <div className="  p-4 flex flex-col justify-center items-center w-full">
@@ -32,6 +32,7 @@ export const About = () => {
                 <div className="flex flex-col space-y-4 md:space-y-0 md:space-x-6 md:flex-row">
                   <img
                     src={zaki2}
+                    width={500}
                     alt=""
                     className="self-center flex-shrink-0 w-24 h-24 border rounded-full md:justify-self-start dark:bg-gray-500 dark:border-gray-700"
                   />
@@ -39,12 +40,17 @@ export const About = () => {
                     <h4 className="text-lg font-semibold text-center md:text-left [spaceB]">
                       Zakaria Nainia
                     </h4>
-                    <p className="dark:text-gray-400">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima aliquid, hic deserunt quam modi asperiores accusantium, pariatur ex vitae expedita omnis optio! Voluptatibus consequuntur obcaecati autem sequi, exercitationem beatae cumque!
+                    <p className="dark:text-gray-400 text-l font-[spaceB]">
+                      As a web developer designs, builds, and maintains websites
+                      or web applications using languages like HTML, CSS, and
+                      JavaScript. They integrate functionality, ensure
+                      responsiveness, and prioritize user experience. Continuous
+                      learning and adaptability to evolving technologies are key
+                      for success in this dynamic field.
                     </p>
                   </div>
                 </div>
-                <div className="flex justify-center pt-4 space-x-4 align-center">
+                <div className="  lg:hidden flex justify-center pt-4 space-x-4 align-center">
                   <a
                     rel="noopener noreferrer"
                     href="#"
