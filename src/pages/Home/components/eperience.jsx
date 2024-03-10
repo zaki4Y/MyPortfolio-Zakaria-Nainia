@@ -5,14 +5,12 @@ import css from "../../../assets/img/css.png";
 import javascript from "../../../assets/img/javascript.png";
 import reactImage from "../../../assets/img/react.png";
 
-import github from "../../../assets/img/github.png";
+
 import boostrap from "../../../assets/img/pngwing.com.png";
 import tailwind from "../../../assets/img/tailwind.png";
 import Sass from "../../../assets/img/pngegg.png";
 
-import { motion } from "framer-motion";
 
-import { fadeIn, slideInFromBottom, slideInFromRight } from "../../../utils/framer/framer";
 
 import AOS from "aos";
 import "aos/dist/aos.css";

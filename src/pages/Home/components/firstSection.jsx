@@ -8,10 +8,10 @@ import { motion } from "framer-motion";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import zakaria from "../../../assets/img/Picsart_22-12-18_00-49-44-927.png";
-import zaki from "../../../assets/img/Picsart_22-12-18_00-49-44-927-removebg-preview.png";
+
+
 import zaki2 from "../../../assets/img/sans shadow.png";
-import zaki3 from "../../../assets/img/rgsvfz.png";
+
 
 import { fadeIn } from "../../../utils/framer/framer";
 AOS.init();
@@ -54,7 +54,7 @@ export const FirstSection = () => {
               </div>
             </div>
           </div>
-          <div data-aos="zoom-in" className="imagees">
+          <div>
             <img src={zaki2} width={500} alt="" />
           </div>
         </div>

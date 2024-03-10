@@ -1,6 +1,6 @@
 import React from "react";
 import zaki2 from "../../../assets/img/sans shadow.png";
-import zaki3 from "../../../assets/img/rgsvfz.png"
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();

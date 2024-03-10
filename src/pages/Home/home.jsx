@@ -1,7 +1,7 @@
 
 import { About } from './components/about';
 import { Contact } from './components/contact';
-import { Eperience, Experience } from './components/eperience';
+import {  Experience } from './components/eperience';
 import { FirstSection } from './components/firstSection';
 import { Portfolio } from './components/portfolio';
 import { SocialLinks } from './components/socialLinks';
